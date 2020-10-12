@@ -1,0 +1,18 @@
+package resta;
+
+public class resta {
+public static void main(String args[]) {
+
+	int[][] matriz={{9,13,2,5,6,6},{12,3,5,5,1,5},{48,5,3,4,1,5}};
+	for(int i=0;i<matriz.length;i++) {
+		int restafilas=0;
+		for(int j=0;j<matriz.length;j++) {
+			restafilas-=matriz[i][j];
+		}
+		   
+		System.out.println("la resta de la fila ["+i+"]es:"+restafilas);
+	}
+	
+}//main
+}//class
+//zamora esparza yezier cruz
